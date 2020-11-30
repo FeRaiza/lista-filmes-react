@@ -1,0 +1,54 @@
+#page-sobre{
+    padding: 2rem;
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(329.54deg, #7d16d1 40%, #120141 100%);
+	display: flex;
+	justify-content: center;
+    align-items: center;
+   
+}
+.conteudo{
+    position: relative;
+	width: 100%;
+	max-width: 1100px;
+	height: 100%;
+	max-height: 780px;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+    justify-content: space-between;
+    
+}
+.title{
+    margin-top: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+.content-sobre{
+    display: flex;
+    max-width: 350px;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 150px;
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+.img{
+    display: flex;  
+    max-width: 270px;
+    margin-left: 600px;
+    border-radius: 50px;
+    
+ 
+}
+.redes{
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 30px;
+}
+.color-icon{
+    color:rgb(155, 230, 253);
+}
